@@ -1,4 +1,5 @@
 jobs:
+  on: [push]
   phpunit:
     runs-on: ubuntu-latest
     steps:
