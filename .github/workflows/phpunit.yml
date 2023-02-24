@@ -1,0 +1,10 @@
+jobs:
+  phpunit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: composer install
+      - name: Run PHPUnit tests
+        run: ./vendor/bin/phpunit
