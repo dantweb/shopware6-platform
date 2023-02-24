@@ -1,5 +1,11 @@
 jobs:
-  on: [push]
+  on:
+    push:
+      branches:
+        - trunk
+        - master
+    pull_request:
+    workflow_dispatch:
   phpunit:
     runs-on: ubuntu-latest
     steps:
