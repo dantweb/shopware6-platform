@@ -10,6 +10,8 @@ Thumbs.db
 # SASS/SCSS cache
 .sass-cache/
 
+/__tools/
+
 # PhpStorm-Project
 /.idea/
 /.fleet/
