@@ -1,3 +1,4 @@
+name: TestLab1
 on:
   push:
     branches:
