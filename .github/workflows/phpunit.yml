@@ -1,10 +1,6 @@
 name: TestLab1
 on:
   push:
-    branches:
-      - trunk
-      - master
-      - feature
 
 jobs:
   phpunit:
