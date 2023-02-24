@@ -1,10 +1,10 @@
-jobs:
-  on:
-    push:
-      branches:
-        - trunk
-        - master
+on:
+  push:
+    branches:
+      - trunk
+      - master
 
+jobs:
   phpunit:
     runs-on: ubuntu-latest
     steps:
